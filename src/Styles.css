@@ -1,0 +1,181 @@
+body{
+    font-family: sans-serif;
+}
+.background-black{
+    position: absolute;
+    left: 0%;
+    right: 65%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(225.63deg, #37445B -17.16%, #19202C 79.72%);
+}
+.shoe-img{
+    position: absolute;
+    left: 8.21%;
+    right: 47.29%;
+    top: 15.5%;
+    bottom: 17.62%;
+    background: url("https://s3-alpha-sig.figma.com/img/2b0e/d1b9/a9f5e910e061dde52e2c66880f476a07?Expires=1644796800&Signature=KJ3d~zsbVapyemYt22Qhjirg-MTFqoq0b29NuUilU8IJD8HVgXbOZjbqurs8MWt~-V6rLqaSgxkIz1Sh0X5ZAqgHD8qtgDJqvl~owgU7WE-7UGhBgtgvmEuLeDGHQ7S13uDOd0GycYx5rk64MYE4evDo18R9o~V1NXgfkqdiFovHdf7hvbGtbwCsaIAarmvM3sgPobNI4Aut8DV66i9RRw43gYmVdPLvUeT9e6ITEp9HYm1x3YWDvjYldBjWG1y6pVyjlPByw8Wd00hgsjEozHtpilvqb2E~wOZvAmq1qiJBoDjWrYYn0gGZThB2UcoX13xGC~9M7J4JarhbasT4xQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-repeat: no-repeat;
+}
+.shoe-name{
+    position: absolute;
+    width: 175px;
+    height: 81px;
+    left: 121px;
+    top: 15px;
+    font-family: SF UI Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 67.8095px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.has-addons{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #ECEFF2;
+mix-blend-mode: normal;
+opacity: 0.4;
+border-radius: 24px;
+}
+.info{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 30px;
+}
+.search{
+    width: 265px;
+    height: 45px;
+    padding-left: 25px;
+    font-size: large;
+    border-radius: 50px;
+    border: none;
+    background: rgba(239, 240, 240, 0.938);
+}
+.short-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 30px;
+    color: #19202C;
+}
+.main-price{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 42px;
+    color: #19202C;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.color{
+    height: 23px;
+    width: 23px;
+    border-radius: 100%;
+}
+.attributes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid darkgray;
+    width: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+}
+.option-attributes{
+    width: 100px;
+    border: 2px solid darkgray;
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.attributes-block{
+    display: flex;
+    align-items: center;
+    width: 365px;
+    justify-content: space-between;
+}
+.parent-attribute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(37, 136, 216);
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-count{
+    font-family: system-ui;
+    height: 10px;
+    display: flex;
+    border-radius: 100%;
+    padding: 5px;
+    width: 10px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.social-media-icons{
+    position: absolute;
+    right: 89.17%;
+    top: 92.01%;
+    bottom: 5.01%;
+    background: rgba(71, 71, 71, 0.808);
+    color:white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding: 8px;
+    border-radius: 100%;
+    font-size: 25px;
+}
+.facebook{
+    left: 25.26%;
+}
+.twitter{
+    left: 35.26%;
+}
+.instagram{
+    left: 45.26%;
+}
